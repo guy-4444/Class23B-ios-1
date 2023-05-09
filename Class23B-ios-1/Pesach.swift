@@ -28,7 +28,7 @@ class Closures {
         
         result = calc(a: 4, b: 3, action: {(a, b) in a - b })
         
-        result = calc(a: 4, b: 3, action: { $0 - $1 })
+        result = calc(a: 4, b: 3, action: {$0 - $1})
         
         
         result = mn(n: 100, action: { $0 + 1})
@@ -94,7 +94,9 @@ class Arrays {
         }
         print(ar)
         
-        let ar2 = ar.map { $0 - 1 }
+        let ar2 = ar.map { a in
+             a - 1
+        }
         print(ar2)
 
         
@@ -109,7 +111,24 @@ class Arrays {
         y = y / 3.3
         y = y * 3.3
         print(y)
-
+        
+        
+        
+        
+        let names = ["guy", "vladi", "moshe", "anne", "mor", "shachar", "constantine"]
+        
+        var sizes1 = Array.init(repeating: 0, count: names.count)
+        for i in 0..<names.count {
+            sizes1[i] = names[i].count
+        }
+        
+        var sizes2 = names.map { name in
+            name.capitalized
+        }
+        print(sizes2)
+        
+        //names.append("Ram")
+        
     }
     
     func getZeros(size: Int) -> [Int] {

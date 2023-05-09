@@ -14,6 +14,7 @@
 		8CBA51CB29C0CE0F005ED715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBA51C929C0CE0F005ED715 /* Main.storyboard */; };
 		8CBA51CD29C0CE19005ED715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CBA51CC29C0CE19005ED715 /* Assets.xcassets */; };
 		8CBA51D029C0CE19005ED715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBA51CE29C0CE19005ED715 /* LaunchScreen.storyboard */; };
+		8CC932CD2A0AA42500C20991 /* MemoryGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC932CC2A0AA42500C20991 /* MemoryGameController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8CBA51CC29C0CE19005ED715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CBA51CF29C0CE19005ED715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CBA51D129C0CE19005ED715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CC932CC2A0AA42500C20991 /* MemoryGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				8CBA51CE29C0CE19005ED715 /* LaunchScreen.storyboard */,
 				8CBA51D129C0CE19005ED715 /* Info.plist */,
 				8C620E8B29DC79EA00B61E26 /* Pesach.swift */,
+				8CC932CC2A0AA42500C20991 /* MemoryGameController.swift */,
 			);
 			path = "Class23B-ios-1";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				8CBA51C829C0CE0F005ED715 /* ViewController.swift in Sources */,
 				8C620E8C29DC79EA00B61E26 /* Pesach.swift in Sources */,
+				8CC932CD2A0AA42500C20991 /* MemoryGameController.swift in Sources */,
 				8CBA51C429C0CE0F005ED715 /* AppDelegate.swift in Sources */,
 				8CBA51C629C0CE0F005ED715 /* SceneDelegate.swift in Sources */,
 			);
